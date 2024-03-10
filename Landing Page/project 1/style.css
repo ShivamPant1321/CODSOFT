@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/pexels-justus-menke-5213162.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -39,7 +39,7 @@ nav img{
     content: "";
     width: 0%;
     height: 2px;
-    background: rgb(25, 126, 249);
+    background: green;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -76,8 +76,8 @@ nav img{
     cursor: pointer;
 }
 .herobtn:hover{
-    border: 1px solid rgb(25, 126, 249);
-    background: rgb(25, 126, 249);
+    border: 1px solid green;
+    background: green;
     transition: 1s;
 }
 
@@ -94,7 +94,7 @@ nav .fa{
     }
     .navlinks{
         position: absolute;
-        background-color:rgb(25, 126, 249);
+        background-color: green;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -191,7 +191,7 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgb(25, 126, 249);
+    background: rgb(226, 0, 0, 0.7);
 }
 .layer h3{
     width: 100%;
@@ -268,7 +268,7 @@ h3{
     text-align: left;
 }
 .testimonial_col .fa{
-    color:rgb(25, 126, 249);
+    color: green;
 }
 @media(max-width: 700px){
     .testimonial_col img{
@@ -315,13 +315,13 @@ h3{
 }
 
 .icons .fa{
-    color: rgb(25, 126, 249);
+    color: green;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
 }
 .fa-heart-o{
-    color: rgb(25, 126, 249);
+    color: green;
 }
 
  /* About us page */
@@ -359,9 +359,9 @@ h3{
     padding: 15px 0 25px;
 }
 .redbtn{
-    border: 1px solid rgb(25, 126, 249);
+    border: 1px solid green;
     background: transparent;
-    color:rgb(25, 126, 249);
+    color: green;
 }
 .redbtn:hover{
     color: #fff;
@@ -394,7 +394,7 @@ h3{
     flex-basis: 32%;
 }
 .blogright h3{
-    background: rgb(25, 126, 249);
+    background: green;
     color: #fff;
     padding: 7px 0;
     font-size: 16px;
